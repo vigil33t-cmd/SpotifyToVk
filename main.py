@@ -24,7 +24,7 @@ spotifycreds = {
 reverse = True
 
 #Id to your playlist
-playlist_id = "https://open.spotify.com/playlist/6ximGUOyEPBELHxDmWiwPx"
+playlist_id = ""
 
 creds = SpotifyClientCredentials(client_id = spotifycreds["client_id"], client_secret=spotifycreds["client_secret"])
 spotify = spotipy.Spotify(client_credentials_manager=creds)
